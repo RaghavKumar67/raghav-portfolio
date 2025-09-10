@@ -944,3 +944,7 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+.direction-l .flag:nth-of-type(2)::before {
+    right: -165px; /* or adjust as needed */
+/*     right: auto; /* override existing right if needed */ */
+}
